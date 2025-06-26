@@ -237,8 +237,8 @@ button:active {
     }
 
     .options {
-        flex-direction: column; /* Stack options vertically on small screens */
-        gap: 15px;
+        /* Stack options vertically on small screens */
+        gap: 10px;
     }
 
     .option-group, button {
@@ -273,6 +273,8 @@ button:active {
     button {
         padding: 10px 20px;
         font-size: 0.9em;
+display: flex;
+        flex-wrap: nowrap;
     }
 
     input[type="color"] {
